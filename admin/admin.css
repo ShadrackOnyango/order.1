@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.menu{
+    border-bottom: 1px solid grey;
+
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.footer{
+    background-color: brown;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+}
+.menu ul li a:hover{
+    color: chartreuse;
+}
+.main-content{
+    margin:1% 0;
+    background-color: antiquewhite;
+
+}
+.col-4{
+    width: 14%;
+    background-color:whitesmoke ;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.clear-fix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.btn-primary{
+    background-color: aqua;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    color: chocolate;
+}
+.btn-secondary{
+    background-color: rgb(30, 0, 255);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    color: chartreuse;
+}
+.btn-danger{
+    background-color: rgb(255, 149, 0);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    color: rgb(241, 9, 9);
+}
+.tbl-30{
+    width: 30%;
+}
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
+.text-center{
+    text-align: center;
+}
